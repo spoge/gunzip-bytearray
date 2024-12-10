@@ -1,8 +1,8 @@
 {
-  "name": "gzipped-bytearray-to-json",
+  "name": "gunzip-bytearray",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sboge.no/gzipped-bytearray-to-json",
+  "homepage": "https://sboge.no/gunzip-bytearray",
   "dependencies": {
     "cra-template": "1.2.0",
     "pako": "^2.1.0",
