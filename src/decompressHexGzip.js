@@ -4,6 +4,8 @@ const hexToUint8Array = (hexString) => {
   // Remove the 0x prefix if it exists
   if (hexString.startsWith("0x")) {
     hexString = hexString.slice(2);
+  } else if (hexString.startsWith("x")) {
+    hexString = hexString.slice(1);
   }
 
   // Convert hex string to byte array
